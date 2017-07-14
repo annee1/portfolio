@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Set the style of the table -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <style>
+
+      body{
+        color: inherit;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      table, th, td{
+        border: 2px solid #01426a;
+        border-collapse: collapse;
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+        color: #000000
+      }
+
+      th  {
+        background-color: #33FFD0
+      }
+      tr:hover {background-color: #33FFD0}
+
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Table starts here-->
+    <div style ="overflow-x:auto;">
+      <table style="width:90%; margin:1em auto">
+
+        <!-- Define the first row of the table -->
+        <tr>
+          <th>Name and Picture</th>
+          <th>How is it used</th>
+          <th>How it works</th>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>3-pin header</b></td>
+          <td> used to connect arduino boards and shields </td>
+          <td> works like jumper wires </td>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Whisker wire</b></td>
+          <td> tells robot when it runs into things. it senses surroundings </td>
+          <td> metal standoffs and screws provide electrical connection </td>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Phototransistor</b></td>
+          <td> uses light to control the flow of current </td>
+          <td> converts light energy into electrical energy </td>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Infrared detector</b></td>
+          <td> used to detect heat </td>
+          <td> detect infared radiation, used by looking at enery </td>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Push-button (extra)</b></td>
+          <td> used to switch mechanism for controlling a machine or a process </td>
+          <td> the circuit closes and current flows: LED is on </td>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Capacitor (extra)</b></td>
+          <td> used to store electric energy when it is connected to its charging circuit </td>
+          <td> work to store charge </td>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Infrared LED (extra)</b></td>
+          <td> used to send out light with longer wavelengths </td>
+          <td>  </td>
+        </tr>
+
+      </table>
+    </div>
+    
+  </body>
+</html>
