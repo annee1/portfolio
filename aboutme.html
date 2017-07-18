@@ -3,9 +3,9 @@
 <head>
       <title> Anne's Portfolio </title>
 </head>
-<body>
-      background-color: LightBlue
-      text-align: center
+      body {      
+            background-color: LightBlue
+            text-align: center
 
       <h1> ANNE HUANG'S PORTFOLIO </h1>
       <img src="FullSizeRender.jpg" alt="pic" style="width:128px;height:128px;"> 
@@ -20,4 +20,18 @@
  <img src="Capture.PNG" alt="pic" style="width:200px;height:200px;">
  <p> During this activity, I learned how to make a single LED light up using components like a breadboard, battery, and resistor. I learned that you must used a resistor so it could reduce the amount of current flow, or the LED light will blow up. 
 
+<script> 
+      document.getElementbyId("datat").innerHTML = Date();
+      function myFunction() {
+            var txt;
+            var person = prompt("What's your name?");
+            if (person == null || person == "") {
+                  txt = "Hi no name! Welcome to my portfolio!";
+            }
+            else {
+                  txt = "Hello " + person + "! Welcome to my portfolio!";
+            }
+            document.getElementById("promptAnswer").innerHTML = txt; 
+      }
+</script>
 </html>
